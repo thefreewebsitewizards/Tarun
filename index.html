@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On-The-Go Kits - Travel Essentials Curated & Ready</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sticky Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>On-The-Go Kits</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#kits" class="nav-link">Kits</a></li>
+                <li><a href="#why-us" class="nav-link">Why Us</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#notify" class="nav-link">Notify Me</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">💼 The Smart Traveler's Choice</div>
+                    <h1 class="hero-title">Travel Essentials<br><span class="hero-subtitle-accent">Curated. Packed. Ready.</span></h1>
+                    <p class="hero-description">From weekend getaways to 14-day adventures — we've got you covered. Thoughtful travel kits delivered to your doorstep or picked up on the go.</p>
+                    <div class="hero-buttons">
+                        <button class="cta-button primary" onclick="scrollToSection('kits')">Explore Kits</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="assets/hero.jpg" alt="Travel essentials flat lay" class="hero-img">
+                    </div>
+                        <div class="image-badge top"><i class="fa-solid fa-compass"></i> Traveler-Curated</div>
+                        <div class="image-badge bottom"><i class="fa-solid fa-bolt"></i> Always Ready</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Are On-The-Go Kits -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="about-title">What Are On-The-Go Kits?</h2>
+            <div class="about-content">
+                <div class="about-image-container">
+                    <div class="circular-image-wrapper">
+                        <img src="assets/kit (5).jpg" alt="Open travel kit" class="circular-about-img">
+                        <div class="glassmorphism-border"></div>
+                    </div>
+                </div>
+                <div class="about-text-container">
+                    <div class="content-card">
+                        <p class="main-content">On-The-Go is built for travelers who don't want to stress about last-minute packing. Our pre-packed kits include everything you need based on your trip duration — from toiletries and power banks to adapters and wipes.</p>
+                        
+                        <div class="highlight-box">
+                            <p>Whether you're flying, road-tripping, or on a spontaneous adventure, we're the one-stop companion for all your essentials.</p>
+                        </div>
+                        
+                        <div class="feature-tags">
+                            <span class="tag">Pre-packed</span>
+                            <span class="tag">Duration-based</span>
+                            <span class="tag">All Essentials</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kit Categories -->
+    <section id="kits" class="kits-section">
+        <div class="container">
+            <h2 class="section-title">Our Travel Kits</h2>
+            <div class="kits-grid">
+                <div class="kit-card fade-in">
+                    <div class="kit-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="kit-content">
+                        <h3>Basic Kit</h3>
+                        <p class="kit-duration">Weekend Trips (1–2 Days)</p>
+                        <p>Compact grab-and-go kit with shampoo, toothbrush, charger, wipes, and a mask.</p>
+                    </div>
+                </div>
+                
+                <div class="kit-card fade-in">
+                    <div class="kit-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="kit-content">
+                        <h3>Premium Kit</h3>
+                        <p class="kit-duration">Short Trips (3–5 Days)</p>
+                        <p>Adds deodorant, skincare minis, razor, power bank, first-aid, and adapter.</p>
+                    </div>
+                </div>
+                
+                <div class="kit-card fade-in">
+                    <div class="kit-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="kit-content">
+                        <h3>Nomad Kit</h3>
+                        <p class="kit-duration">Mid-Length Travel (7–10 Days)</p>
+                        <p>Includes laundry sheets, towel, reusable bottle, sunscreen, first-aid, sewing kit.</p>
+                    </div>
+                </div>
+                
+                <div class="kit-card fade-in">
+                    <div class="kit-icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <div class="kit-content">
+                        <h3>Adventure Kit</h3>
+                        <p class="kit-duration">Long-Term Travel (14+ Days)</p>
+                        <p>Everything from Nomad Kit + repellents, weather protection, organizer pouch.</p>
+                    </div>
+                </div>
+                
+                <div class="kit-card fade-in">
+                    <div class="kit-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <div class="kit-content">
+                        <h3>Elite Kit</h3>
+                        <p class="kit-duration">Ultra-Premium for Frequent Flyers</p>
+                        <p>Luxury case, noise-canceling earbuds, premium skincare, RFID passport holder, tracker.</p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <p class="kits-note">All kits customizable & available on subscription</p>
+            </div>  
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="why-us-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose On-The-Go Kits?</h2>
+            <div class="carousel-wrapper">
+                <div class="features-carousel" id="featuresCarousel">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-passport"></i>
+                        </div>
+                        <h3>Curated by Real Travellers</h3>
+                        <p>Every item tested and approved by frequent travelers who know what works.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3>No More Forgotten Essentials</h3>
+                        <p>Never worry about leaving behind important items. We've got everything covered.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Instant Delivery</h3>
+                        <p>Get your kit delivered via Blinkit, Zepto, and other quick delivery partners.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Airport/Hotel Partnerships</h3>
+                        <p>Pick up your kit at airports, hotels, and railway stations for ultimate convenience.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Customizations & Group Kits</h3>
+                        <p>Tailor your kit to your needs or order for groups and corporate trips.</p>
+                    </div>
+                    
+                    <!-- Duplicate cards for seamless loop -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-passport"></i>
+                        </div>
+                        <h3>Curated by Real Travellers</h3>
+                        <p>Every item tested and approved by frequent travelers who know what works.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3>No More Forgotten Essentials</h3>
+                        <p>Never worry about leaving behind important items. We've got everything covered.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Instant Delivery</h3>
+                        <p>Get your kit delivered via Blinkit, Zepto, and other quick delivery partners.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Airport/Hotel Partnerships</h3>
+                        <p>Pick up your kit at airports, hotels, and railway stations for ultimate convenience.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Customizations & Group Kits</h3>
+                        <p>Tailor your kit to your needs or order for groups and corporate trips.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Testimonials -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Our Travelers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <p>"I didn't have to think twice — the Premium Kit had everything I needed. Even a stain remover I didn't know I'd need until I did."</p>
+                    <div class="testimonial-author">
+                        <div class="avatar">AM</div>
+                        <div class="author-info">
+                            <strong>Aarav M.</strong>
+                            <span>Bengaluru</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in">
+                    <p>"Got mine delivered in under 30 minutes before a spontaneous trip. No more panicked packing. Just grab and go!"</p>
+                    <div class="testimonial-author">
+                        <div class="avatar">TS</div>
+                        <div class="author-info">
+                            <strong>Tanya S.</strong>
+                            <span>Mumbai</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in">
+                    <p>"I travel for work every week and the Elite Kit is my new essential. Premium, compact, and thoughtfully packed."</p>
+                    <div class="testimonial-author">
+                        <div class="avatar">RD</div>
+                        <div class="author-info">
+                            <strong>Rahul D.</strong>
+                            <span>Delhi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Email Signup -->
+    <section id="notify" class="signup-section">
+        <div class="container">
+            <div class="signup-content">
+                <h2>Notify me</h2>
+                <p>Be the first to pack smarter. We're launching soon — sign up to get early access, special launch offers, and insider travel tips.</p>
+                
+                <form class="signup-form" id="signup-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name (Optional)" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email *" class="form-input" required>
+                    </div>
+                    <button type="submit" class="cta-button">Notify Me</button>
+                </form>
+                
+                <p class="contact-info">Planning a group trip or corporate package? Email us at <a href="mailto:hello@onthegokits.com">hello@onthegokits.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>On-The-Go Kits</h3>
+                </div>
+                <div class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#kits">Kits</a>
+                    <a href="#why-us">Why Us</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#notify">Notify Me</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 On-The-Go Kits. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
